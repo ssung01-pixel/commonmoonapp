@@ -11,32 +11,25 @@ import {
 const Footer = () => {
   return (
     <Box>
-      <h1 style={{ color: "green", 
+      <h1 style={{ color: "pink", 
                    textAlign: "center", 
                    marginTop: "-50px" }}>
-        GeeksforGeeks: A Computer Science Portal for Geeks
+        CommonMoon App
       </h1>
       <Container>
         <Row>
           <Column>
-            <Heading>About Us</Heading>
-            <FooterLink href="#">Aim</FooterLink>
-            <FooterLink href="#">Vision</FooterLink>
-            <FooterLink href="#">Testimonials</FooterLink>
+            <Heading>Quick Links</Heading>
+            <FooterLink href="#">Shop</FooterLink>
+            <FooterLink href="#">About Us</FooterLink>
+            <FooterLink href="#">Contact Us</FooterLink>
+            <FooterLink href="#">Terms of Service</FooterLink>
+            <FooterLink href="#">Refund policy</FooterLink>
           </Column>
           <Column>
-            <Heading>Services</Heading>
-            <FooterLink href="#">Writing</FooterLink>
-            <FooterLink href="#">Internships</FooterLink>
-            <FooterLink href="#">Coding</FooterLink>
-            <FooterLink href="#">Teaching</FooterLink>
-          </Column>
-          <Column>
-            <Heading>Contact Us</Heading>
-            <FooterLink href="#">Uttar Pradesh</FooterLink>
-            <FooterLink href="#">Ahemdabad</FooterLink>
-            <FooterLink href="#">Indore</FooterLink>
-            <FooterLink href="#">Mumbai</FooterLink>
+            <Heading>Legal </Heading>
+            <p>Common Moon is a subgroup of Project Break The Cycle, 
+              a registered 501(c)3 nonprofit organization in the United States.</p>
           </Column>
           <Column>
             <Heading>Social Media</Heading>
@@ -67,7 +60,7 @@ const Footer = () => {
                   Youtube
                 </span>
               </i>
-            </FooterLink>
+            </FooterLink>e
           </Column>
         </Row>
       </Container>
