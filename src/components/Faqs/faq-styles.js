@@ -23,6 +23,6 @@ export const StyledFaq = styled.div`
 
 export const StyledFaqsList = styled.div`
   background: #efefef;
-  margin: 20px 0;
+  margin: 100px 0;
   padding: 1rem;
 `

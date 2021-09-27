@@ -2,15 +2,17 @@ import styled from 'styled-components';
    
 export const Box = styled.div`
   padding: 80px 60px;
-  background: black;
+  background:#E6E6FA ;
   position: absolute;
   bottom: 0;
   width: 100%;
-  
-   
+  position: relative;
+  min-height: 20vh;
+  padding-bottom: 2.5rem;  
   @media (max-width: 1000px) {
     padding: 70px 30px;
   }
+  
 `;
    
 export const Container = styled.div`
@@ -19,7 +21,8 @@ export const Container = styled.div`
     justify-content: center;
     max-width: 1000px;
     margin: 0 auto;
-    /* background: red; */
+
+  
 `
    
 export const Column = styled.div`
@@ -33,7 +36,7 @@ export const Row = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fill, 
                          minmax(185px, 1fr));
-  grid-gap: 20px;
+  grid-gap: 12px;
    
   @media (max-width: 1000px) {
     grid-template-columns: repeat(auto-fill, 
@@ -42,20 +45,19 @@ export const Row = styled.div`
 `;
    
 export const FooterLink = styled.a`
-  color: #fff;
+  color: black;
   margin-bottom: 20px;
-  font-size: 18px;
+  font-size: 12 px;
   text-decoration: none;
-   
+
   &:hover {
-      color: green;
+      color: red;
       transition: 200ms ease-in;
   }
 `;
-   
 export const Heading = styled.p`
-  font-size: 24px;
-  color: #fff;
+  font-size: 20px;
+  color: #000080;
   margin-bottom: 40px;
   font-weight: bold;
 `;

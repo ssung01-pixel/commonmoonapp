@@ -11,7 +11,7 @@ import {
 const Footer = () => {
   return (
     <Box>
-      <h1 style={{ color: "pink", 
+      <h1 style={{ color: "#301C51", 
                    textAlign: "center", 
                    marginTop: "-50px" }}>
         CommonMoon App
@@ -35,32 +35,32 @@ const Footer = () => {
             <Heading>Social Media</Heading>
             <FooterLink href="#">
               <i className="fab fa-facebook-f">
-                <span style={{ marginLeft: "10px" }}>
+                <span style={{ marginLeft: "40px" }}>
                   Facebook
                 </span>
               </i>
             </FooterLink>
             <FooterLink href="#">
               <i className="fab fa-instagram">
-                <span style={{ marginLeft: "10px" }}>
+                <span style={{ marginLeft: "40px" }}>
                   Instagram
                 </span>
               </i>
             </FooterLink>
             <FooterLink href="#">
               <i className="fab fa-twitter">
-                <span style={{ marginLeft: "10px" }}>
+                <span style={{ marginLeft: "40px" }}>
                   Twitter
                 </span>
               </i>
             </FooterLink>
             <FooterLink href="#">
               <i className="fab fa-youtube">
-                <span style={{ marginLeft: "10px" }}>
+                <span style={{ marginLeft: "40px" }}>
                   Youtube
                 </span>
               </i>
-            </FooterLink>e
+            </FooterLink>
           </Column>
         </Row>
       </Container>
